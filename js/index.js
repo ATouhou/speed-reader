@@ -27,7 +27,6 @@ function words_load() {
     spritz_pause(true);
 }
 
-
 function words_process() {
   $text = $words.text();
   // Catch h2s and clean them up
@@ -225,7 +224,6 @@ function spritz_select() {
 };
 
 
-
 $('#spritz_wpm').on('input', function() {
     spritz_speed();
 });
@@ -259,5 +257,4 @@ $('.controls').on('click', 'a, label', function() {
     };
     return false;
 });
-
 words_load();
